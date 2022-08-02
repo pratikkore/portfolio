@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Portfolio Landing Page</title>
+
+
+    <!-- favicon  -->
+    <link rel="icon" type="image/png" href="abc">
+
+    <!-- Bootstrap 5 cdn links  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+
+    <!-- custom files link -->
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/respnsive-style.css">
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='/js/main.js'></script>
+</head>
+
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">
+
+    <!-- Navbar section -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-sm fixed-top">
+
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <img src="/images/logo.png" class="img-fluid" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                    <i class="fas fa-stream navbar-toggler-icon"></i>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav menu-navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li> -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="main-btn" href="#contact">Hire Me</a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+    <!-- Navbar section exit -->
+
+
+
+    <!-- Banner section -->
+
+    <section id="home" class="banner_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class=" col-sm-12 text-center text-md-start">
+                    <h6>Welcome To My World</h6>
+                    <h1>I'm Pratik D Kore.<br><span>Frontend Developer.</span><br>Based in Pune</h1>
+                    <div class="mt-4" >
+                        <a class="main-btn" target="_blank" href="resume/Pratik board infinty resume.pdf" style="width:auto" >Downlode CV</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- banner section exit -->
+
+
+    <!-- About section -->
+    <section id="about" class="about_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-5 mb-4 mb-lg-0">
+                    <img src="images/pratik.jpg" class="img-fluid rounded-3" alt="About-us">
+                </div>
+                <div class="col-7 ps-5 text-center text-lg-start">
+                    <div class="my-3 my-0">
+                        <span class="subtitle"></span>
+                        <h2>About Me</h2>
+                        <p>I Am A Junior Full Stack Developer.Specialized in frontend web devlopment. </p>
+                    </div>
+                    <div class="" pt-4>
+                        <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab"
+                            role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill"
+                                    aria-selected="true">Main Skill</button>
+                            </li>
+
+
+                            <!-- <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-award-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-award" type="button" role="tab" aria-controls="pills-award"
+                                    aria-selected="false">Awards</button>
+                            </li> -->
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-experiance" type="button" role="tab"
+                                    aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                            </li>
+
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="pills-education-tab" data-bs-toggle="pill"
+                                    data-bs-target="#pills-education" type="button" role="tab"
+                                    aria-controls="pills-education" aria-selected="false">Education</button>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content" id="pills-tabContent">
+                            <div class="tab-pane fade show active" id="pills-skill" role="tabpanel"
+                                aria-labelledby="pills-skill-tab">
+                                <div class="single-progress">
+                                    <h6>HTML</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 75%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">75%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>CSS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 65%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">65%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>JAVASCRIPT</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 70%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">70%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>REACT.JS</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 60%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">60%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>NodeJs</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 40%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">40%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>ExpressJs</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 35%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">35%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>MongoDB</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">50%</span>
+                                </div>
+
+                                <div class="single-progress">
+                                    <h6>Bootstrap</h6>
+                                    <div class="progress">
+                                        <div class="progress-bar" role="progressbar" style="width: 50%"
+                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                    <span class="label">50%</span>
+                                </div>
+
+                            </div>
+
+
+
+
+                            <!-- <div class="tab-pane fade" id="pills-award" role="tabpanel"
+                                aria-labelledby="pills-award-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="javascript:void(0)"> Awaards.com <span>-Winner</span></a>2019-2020</li>
+
+                                    <li><a href="javascript:void(0)"> CSS Desgin Awards
+                                            <span>-Winner</span></a>2019-2020</li>
+
+                                    <li><a href="javascript:void(0)"> Desgin nominess<span>-Winner</span></a>2019-2020
+                                    </li>
+
+                                    <li><a href="javascript:void(0)"> Awards.commm<span>-Winner</span></a>2019-2020</li>
+                                </ul>
+
+                            </div> -->
+
+                            <div class="tab-pane fade" id="pills-experiance" role="tabpanel"
+                                aria-labelledby="pills-experiance-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="javascript:void(0)">Front-End
+                                            Developer<span></span></a>Fresher</li>
+
+                                    <li><a href="javascript:void(0)">Back-End
+                                            Developer<span></span></a>Fresher</li>
+
+                                    <li><a href="javascript:void(0)">Full-Stack
+                                            Developer<span>-</span></a>Fresher</li>
+                                </ul>
+                            </div>
+
+                            <div class="tab-pane fade" id="pills-education" role="tabpanel"
+                                aria-labelledby="pills-education-tab">
+                                <ul class="text-start ps-0">
+                                    <li><a href="javascript:void(0)">10th<span>-Pune Board</span></a> 2009</li>
+
+                                    <li><a href="javascript:void(0)">12th<span>-Pune Board</span></a> 2011</li>
+
+                                    <li><a href="javascript:void(0)">Diploma in Mechanical<span>-Maharastra state
+                                                Board</span></a> 2020
+                                    </li>
+
+                                    <li><a href="javascript:void(0)">Full stack Developer certification <span>-Board
+                                                Infinity,Mumbai</span></a> 2021-till date </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About section exit  -->
+
+
+
+    <!-- Service section  -->
+    <!-- <section id="services" class="services_wrapper"> -->
+    <!-- <div class="container">
+            <div class="row">
+                <div class="col-sm-12 text-center mb-4">
+                    <span class="subtitle">what I Can Do For You</span>
+                    <h2>My Awsome Service</h2>
+                    <p>There are many variations of passages of lorem ipsume available,<br class="d-none d-md-block">But
+                        the majority have sufferd alteration.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-1.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Bussines Stratagy</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-2.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Website devlopment</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+                            <h3>Marketing Repoerting</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-4.svg" alt="service" class="img-fluid mb-4">
+                            <h3>mobile app devlopment</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-3.svg" alt="service" class="img-fluid mb-4">
+                            <h3>mobile app devlopment</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card">
+                        <div class="card-body text-md-start text-center">
+                            <img src="/images/service/service-4.svg" alt="service" class="img-fluid mb-4">
+                            <h3>mobile app devlopment</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- Service section exit -->
+
+    <!-- Portfolio Section  -->
+    <section id="portfolio" class="portfolio_wrapper">
+        <div class="container">
+            <div class="row">
+                <div class="col-s,-12 text-center mb-4">
+                    <span class="subtitle">My Complete Project List</span>
+                    <h2>My letest Project</h2>
+                    <p>In this application i am useing frontend technology.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/portfolio/Gallary\ app.png)"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/portfolio/Digital\ clock.png)"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url(images/portfolio/shopping\ cart.png)"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('images/portfolio/Bmi\ calculator.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('images/portfolio/randome\ qoutes.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('images/portfolio/tip\ calculator.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('images/portfolio/Id\ card\ Genrator.png')"></span>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md06 mb-4">
+                    <div class="card p-0">
+                        <span style="background-image:url('images/portfolio/stopwatch.png')"></span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Portfolio Section exit  -->
+
+    <!-- Contact section -->
+    <section id="contact" class="contact_wrapper">
+        <div class="container">
+            <div class="row justify-content-between align-items-center">
+                <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+                    <span class="subtitle">my complete project</span>
+                    <h2>Hire Me</h2>
+                    <div class="row call_details mb-4">
+                        <label class="col-sm-3 col-lg-4">Call us directly:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="javascript:void(0)">+91 7588-1648-70</a>
+                        </div>
+
+                        <label class="col-sm-3 col-lg-4">contact Email:</label>
+
+                        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+                            <a href="mailto:pratikkore5051@gmail.com">pratikkore5051@gmail.com</a>
+                        </div>
+                    </div>
+
+                    <form action="mailto:pratikkore5051@gmail.com?subject=Regarding Job Opening.&body=Hi Pratik &nbsp;"
+                        method="post" enctype="multipart/form-data" name="EmailForm">>
+                        <div class="mb-4">
+                            <input type="text" name="Name" class="form-control" placeholder="Your Name..."
+                                autocomplete="off">
+                        </div>
+
+                        <div class="mb-4">
+                            <input type="number" name="Mobile number" class="form-control" placeholder="Your phone..."
+                                autocomplete="off">
+                        </div>
+
+                        <div class="mb-4">
+                            <input type="email" name="Email ID" class="form-control" placeholder="Your email..."
+                                autocomplete="off">
+                        </div>
+
+                        <div class="mb-4">
+                            <textarea cols="40" name="Extra Information" rows="4" class="form-control" id="message"
+                                placeholder="Write a Message..." autocomplete="off"></textarea>
+                        </div>
+
+                        <div>
+                            <input type="submit" class="main-btn" name="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+                    <img src="/images/contact.jpg" class="img-fluid">
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact section exit  -->
+
+    <!-- Footer section -->
+    <section id="contact" class="footer_wrapper mt-3 mt-md=0">
+        <div class="container">
+            <div class="row align-iteams-center">
+                <div class="col-lg-4 col-md-6 text-center text-md-start">
+                    <div class="footer-logo mb-3 mb-md-0">
+                        <img src="/images/logo.png" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <ul
+                        class="list-unstyled d-flex justify-content-center justify-content-md-end justify-content-lg-center social-icon mb-3 mb-md-0">
+                        <li>
+                            <a target="_blank" href="https://www.instagram.com/pratikkore_/"><i
+                                    class="fab fa-instagram"></i></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://github.com/pratikkore"> <i class="fab fa-github"></i> </a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://twitter.com/pratikkore5051"><i
+                                    class="fab fa-twitter"></i></a>
+                        </li>
+                        <li>
+                            <a target="_blank" href="https://www.linkedin.com/in/pratik-kore-76a71621b"><i
+                                    class="fab fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+                        <p class="mb-0">Copyright @2022 <a href="#">Pratikkore</a>.All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer section exit  -->
+
+
+    <!-- Bootstrap 5 js cdn link  -->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
